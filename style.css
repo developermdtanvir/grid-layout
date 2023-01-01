@@ -1,0 +1,40 @@
+.container{
+    border: 2px solid black;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(4,300px);
+    grid-gap: 20px;
+}
+.grid-item{
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+}
+.item-1{
+    background-color: aqua;
+}
+.item-2{
+    background-color:aquamarine;
+}
+.item-3{
+    background-color:bisque;
+}
+.item-4{
+    background-color:blanchedalmond;
+}
+.item-5{
+    background-color:blue;
+}
+.item-6{
+    background-color:brown;
+}
+.item-7{
+    background-color:blueviolet;
+}
+.item-8{
+    background-color:crimson;
+}
+.item-9{
+    background-color:darkgoldenrod;
+}
